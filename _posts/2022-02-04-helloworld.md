@@ -9,4 +9,4 @@ This is where I'll possibly be writing about the process of developing a Gameboy
 
 ![](/blog/fixedarrows.gif)
 
-The plan from here is to add support for multiple projectiles and killable enemies. 
+The plan from here is to add support for multiple projectiles and killable enemies. My partner in crime is working on re-drawing the wall sprites and creating a few new rooms. 
