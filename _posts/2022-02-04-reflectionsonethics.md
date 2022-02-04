@@ -1,0 +1,14 @@
+---
+layout: posts
+title: "A Reflection on our Ethics Discussion"
+date: 2022-02-04 9:47AM EST
+categories: Senior_Seminar
+---
+
+During the first two weeks of class, or at least what was left of them after Snowmageddon, we had an in-class discussion on our personal ethics. Personally, I really liked the "Treat others how *they* would like to be treated." play on the golden rule, and I think that encapsulates a lot of the generational conflict we see today. (Credit to whoever said that, I forgot your name. Sorry.) 
+
+A lot of the older generation see Millennials and Gen Z as lazy but in an economy that is increasingly going down the drain faster and faster each day, an hour of work when they were our age would buy so much more than an hour of our work today. Meanwhile, workers rights have been eroded away since 'the good old days'. And don't get me started on student loans... We're being paid less for more work with predatory loans we were tricked into for an education that may or may not land you a relevant career. I can't speak for all Millenials and Gen Z, but I know that I and most people I've talked to about this aren't trying to get something for nothing, we just want the 'American Dream' that we were promised. A comfortable suburban life with a house we own, a loving spouse, and one of us works while the other takes care of the kids. It's the idea we were sold, but now that we're of age to try and obtain it, we see that it's damn near impossible for a lot of us. 
+
+Meanwhile a lot of Millenials and Gen Z give individual Baby Boomers too much credit for the collapsing economy, while in reality it's major government decisions that have gotten us here. Government subsidized student loans encourage the schools to raise their prices, just to squeeze another buck out of Uncle Sam's wallet. Getting off of the gold standard and the mass printing of money inflated the currency beyond belief. COVID shutdowns caused small businesses to close down, because food goes bad and rent requires income. They couldn't afford to keep paying rent, and to restock all of the food that spoiled. So they didn't; they shut down operations and went to work for some big corporation. So, our money is fake, each dollar means less and less because they keep printing more and more, and small competitors to big business gets shut down. Who's to blame? 
+
+Anyways, enough of that tangent, another observation I liked was that people are 'greedier' when it comes to big choices in life. I certainly agree. Something small like holding the door open for someone doesn't hurt me in the slightest, but would cause some positive to someone else, so I do it. If I apply to my 'dream job', I get an interview and they tell me there's another candidate, it would be nice of me to let them get the job; I'm not doing it because it would be a net negative to me to not get that job, even if there's a positive. 
