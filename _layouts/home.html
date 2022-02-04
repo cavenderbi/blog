@@ -10,6 +10,13 @@
                 color: #eee;
                 font-family: sans-serif;
             }
+            background {
+                background-color: #242424;
+                max-width: 7in;
+                min-height: 95vh;
+                margin: auto;
+                display: block;
+            }
             container {
                 margin: 10px auto;
                 max-width: 600px;
@@ -18,31 +25,45 @@
             site-title {
                 text-align: center;
             }
+            a:link {
+                color:#eee;
+            }
+            a:visited {
+                color:#ddd;
+            }
+            a:hover {
+                color:white;
+            }
+            a:active {
+                color:lightsteelblue;
+            }
         </style>
     </head>
     <body>
-        <header>
-            <wrapper>
-                <site-title>
-                    <h2>CS-4100 Blog | Brandan Cavender</h2>
-                </site-title>
-            </wrapper>
-        </header>
-        <container>
-            {% assign seminar = site.posts | where: "categories", "Senior_Seminar" %}
-            {% assign gbdev = site.posts | where: "categories", "GBDev" %}
-            <h3>Senior Seminar</h3>
-            <ul>
-                {% for post in seminar %}
-                    <p>{{ post.date | date: "%b %d, %Y" }} - <a href="{{ post.url | relative_url }}">{{post.title}}</a></p>
-                {% endfor %}
-            </ul>
-            <h3>Updates on Gameboy Roguelike</h3>
-            <ul>
-                {% for post in gbdev %}
-                    <p>{{ post.date | date: "%b %d, %Y" }} - <a href="{{ post.url | relative_url }}">{{post.title}}</a></p>
-                {% endfor %}
-            </ul>
-        </container>
+        <background>
+            <header>
+                <wrapper>
+                    <site-title>
+                        <h2>CS-4100 Blog | Brandan Cavender</h2>
+                    </site-title>
+                </wrapper>
+            </header>
+            <container>
+                {% assign seminar = site.posts | where: "categories", "Senior_Seminar" %}
+                {% assign gbdev = site.posts | where: "categories", "GBDev" %}
+                <h3>Senior Seminar</h3>
+                <ul>
+                    {% for post in seminar %}
+                        <p>{{ post.date | date: "%b %d, %Y" }} - <a href="{{ post.url | relative_url }}">{{post.title}}</a></p>
+                    {% endfor %}
+                </ul>
+                <h3>Updates on Gameboy Roguelike</h3>
+                <ul>
+                    {% for post in gbdev %}
+                        <p>{{ post.date | date: "%b %d, %Y" }} - <a href="{{ post.url | relative_url }}">{{post.title}}</a></p>
+                    {% endfor %}
+                </ul>
+            </container>
+        </background>
     </body>
 </html>

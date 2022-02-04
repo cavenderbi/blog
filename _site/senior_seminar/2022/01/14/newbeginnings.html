@@ -10,6 +10,13 @@
                 color: #eee;
                 font-family: sans-serif;
             }
+            background {
+                background-color: #242424;
+                max-width: 7in;
+                min-height: 95vh;
+                margin: auto;
+                display: block;
+            }
             container {
                 margin: 10px auto;
                 max-width: 600px;
@@ -17,24 +24,38 @@
             }
             site-title {
                 text-align: center;
+                align-items: center;
+            }
+            a:link {
+                color:#eee;
+            }
+            a:visited {
+                color:#999;
+            }
+            a:hover {
+                color:white;
+            }
+            a:active {
+                color:lightsteelblue;
             }
         </style>
     </head>
     <body>
-        <header>
-            <wrapper>
-                <site-title>
-                    <h2>CS-4100 Blog | Brandan Cavender</h2>
-                    <li><a href="/blog/">Home</a></li>
-                </site-title>
-            </wrapper>
-        </header>
-        <container>
-            
-                <h1>New Beginnings</h1>
-            
-            January 14th, 2022
-            <p>Hello, world! This is the first thing I’ve ever made in HTML, but I want to learn and Client-Side wasn’t available this semester, so I’m taking this opportunity to teach myself. Do mind the ugly until I figure out what I’m doing.</p>
+        <background>
+            <header>
+                <wrapper>
+                    <site-title>
+                        <h2>CS-4100 Blog | Brandan Cavender</h2>
+                        <ul><a href="/blog/">Home</a></ul>
+                    </site-title>
+                </wrapper>
+            </header>
+            <container>
+                
+                    <h1>New Beginnings</h1>
+                
+                January 14th, 2022
+                <p>Hello, world! This is the first thing I’ve ever made in HTML, but I want to learn and Client-Side wasn’t available this semester, so I’m taking this opportunity to teach myself. Do mind the ugly until I figure out what I’m doing.</p>
 
 <p>Anyways, I’m Brandan Cavender and this is my new blog for CS-4100 (Senior Seminar), though I may be posting more than that in the future.</p>
 
@@ -42,6 +63,7 @@
 
 <p>As for my best out-of-class computing experience, that would be a tough one. The time I changed the password on my Mom’s work computer when I was 5 is a highlight. Or the time when I was 5 and I almost ordered an RV online because I knew she wanted one. Or the literal weeks spent on Halo: Reach and Black Ops 2 playing with friends I still talk to today. It’s hard to pick just one.</p>
 
-        </container>
+            </container>
+        </background>
     </body>
 </html>
