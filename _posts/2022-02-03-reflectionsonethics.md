@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "A Reflection on our Ethics Discussion"
 categories: Senior_Seminar
 ---

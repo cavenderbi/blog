@@ -1,7 +1,42 @@
-{% if page.title %}
-    <h1>{{page.title}}</h1>
-{% else %}
-    <h1>Untitled Post</h1>
-{% endif %}
-{{ page.date | date: %b %d, %Y }}
-{{ content }}
+<!--home.html-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{page.title}}</title>
+        <style>
+            body {
+                background-color: #121212;
+                color: #eee;
+                font-family: sans-serif;
+            }
+            container {
+                margin: 10px auto;
+                max-width: 600px;
+                display: block;
+            }
+            site-title {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <wrapper>
+                <site-title>
+                    <h2>CS-4100 Blog | Brandan Cavender</h2>
+                    <li><a href="/blog/">Home</a></li>
+                </site-title>
+            </wrapper>
+        </header>
+        <container>
+            {% if page.title %}
+                <h1>{{page.title}}</h1>
+            {% else %}
+                <h1>Untitled Post</h1>
+            {% endif %}
+            {{ page.date | date_to_long_string: "ordinal", "US" }}
+            {{ content }}
+        </container>
+    </body>
+</html>

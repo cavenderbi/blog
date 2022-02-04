@@ -10,6 +10,14 @@
                 color: #eee;
                 font-family: sans-serif;
             }
+            container {
+                margin: 10px auto;
+                max-width: 600px;
+                display: block;
+            }
+            site-title {
+                text-align: center;
+            }
         </style>
     </head>
     <body>
@@ -20,19 +28,21 @@
                 </site-title>
             </wrapper>
         </header>
-        {% assign seminar = site.posts | where: "categories", "Senior_Seminar" %}
-        {% assign gbdev = site.posts | where: "categories", "GBDev" %}
-        <h3>Senior Seminar</h3>
-        <ul>
-            {% for post in seminar %}
-                <p>{{ post.date | date: "%b %d, %Y" }} - <a href="{{ post.url | relative_url }}">{{post.title}}</a></p>
-            {% endfor %}
-        </ul>
-        <h3>Updates on Gameboy Roguelike</h3>
-        <ul>
-            {% for post in gbdev %}
-                <p>{{ post.date | date: "%b %d, %Y" }} - <a href="{{ post.url | relative_url }}">{{post.title}}</a></p>
-            {% endfor %}
-        </ul>
+        <container>
+            {% assign seminar = site.posts | where: "categories", "Senior_Seminar" %}
+            {% assign gbdev = site.posts | where: "categories", "GBDev" %}
+            <h3>Senior Seminar</h3>
+            <ul>
+                {% for post in seminar %}
+                    <p>{{ post.date | date: "%b %d, %Y" }} - <a href="{{ post.url | relative_url }}">{{post.title}}</a></p>
+                {% endfor %}
+            </ul>
+            <h3>Updates on Gameboy Roguelike</h3>
+            <ul>
+                {% for post in gbdev %}
+                    <p>{{ post.date | date: "%b %d, %Y" }} - <a href="{{ post.url | relative_url }}">{{post.title}}</a></p>
+                {% endfor %}
+            </ul>
+        </container>
     </body>
 </html>

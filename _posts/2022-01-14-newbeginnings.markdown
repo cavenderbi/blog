@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "New Beginnings"
 date: 2022-01-14
 categories: Senior_Seminar
