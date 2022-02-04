@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Hello World!</title>
         <style>
             body {
                 background-color: #121212;
@@ -17,6 +17,10 @@
                 margin: auto;
                 display: block;
             }
+            .utterances {
+                margin: 0 5%;
+                width: 90%;
+            }
             container {
                 margin: 10px auto;
                 max-width: 600px;
@@ -24,12 +28,13 @@
             }
             site-title {
                 text-align: center;
+                align-items: center;
             }
             a:link {
                 color:#eee;
             }
             a:visited {
-                color:#ddd;
+                color:#999;
             }
             a:hover {
                 color:white;
@@ -45,29 +50,29 @@
                 <wrapper>
                     <site-title>
                         <h2>CS-4100 Blog | Brandan Cavender</h2>
+                        <ul><a href="/blog/">Home</a></ul>
                     </site-title>
                 </wrapper>
             </header>
             <container>
                 
+                    <h1>Hello World!</h1>
                 
-                <h3>Senior Seminar</h3>
-                <ul>
-                    
-                        <p>Feb 04, 2022 - <a href="/blog/senior_seminar/2022/02/04/hivetracks.html">Hive Tracks and Bee Informed Partnership Ethics</a></p>
-                    
-                        <p>Feb 04, 2022 - <a href="/blog/senior_seminar/2022/02/04/reflectionsonethics.html">A Reflection on our Ethics Discussion</a></p>
-                    
-                        <p>Jan 14, 2022 - <a href="/blog/senior_seminar/2022/01/14/newbeginnings.html">New Beginnings</a></p>
-                    
-                </ul>
-                <h3>Updates on Gameboy Roguelike</h3>
-                <ul>
-                    
-                        <p>Feb 04, 2022 - <a href="/blog/gbdev/2022/02/04/helloworld.html">Hello World!</a></p>
-                    
-                </ul>
+                February 4th, 2022
+                <p>This is where I’ll possibly be writing about the process of developing a Gameboy game. I’ve already been at it for a few weeks now and it’s actually pretty fun. Anyways, so far I’ve got a sprite that moves around the screen and collides with the wall and shoots a single projectile.</p>
+
+<p><img src="_pictures/fixedarrows.gif" alt="alt text" /></p>
+
+<p>The plan from here is to add support for multiple projectiles and killable enemies.</p>
+
             </container>
+                <script src="https://utteranc.es/client.js"
+                    repo="cavenderbi/blog"
+                    issue-term="pathname"
+                    theme="preferred-color-scheme"
+                    crossorigin="anonymous"
+                    async>
+                </script>
         </background>
     </body>
 </html>
