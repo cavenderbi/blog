@@ -1,0 +1,7 @@
+---
+layout: posts
+title: "Reflections on Privacy Policies and in class TED Talks"
+date: 2022-02-11
+categories: Senior_Seminar
+---
+The privacy policies discussed in class didn't surprise me all that much, and that's what worries me. All of this data on us that we don't own, and it's been normalized. We don't care anymore. Our lives are being recorded and cataloged, with pictures, audio, and numbers; and what do we get in return? ~~Social anxiety and anger?~~ Social media platforms and search engines? I don't think it's worth it personally, but I as an individual don't get a choice. I've deleted my Facebook account 3 times and it's still there, empty and untouched. I've switched to an old-style dumb phone to try and get away from these platforms. But Google still has my location data going all the way back to the 6<sup>th</sup> grade. My roommate still has an Amazon Alexa recording the room. My smart TV is still linked to Roku. My gaming desktop still runs Windows; my school work laptop not so much. I don't know what data my Nintendo Switch may or may not be collecting, but I'm still pretty hyped for the new Mario Kart 8 DLC next month. Spotify certainly collects some sort of data. Discord collects data. Netflix, Hulu, Crunchyroll, Funimation, Disney+ all certainly collect data. We're all datapoints in the research experiment we call modern society, and I don't know if I like it.
