@@ -47,4 +47,18 @@ site-title > h2 {
 }
 site-title > p {
     margin-top: 0;
+    margin-bottom: .5%;
+}
+site-title > ul {
+    display: flex; 
+    align-items: stretch;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+site-title > ul > li {
+    display: block;
+    flex: 0 1 auto;
+    list-style-type: none;
 }
