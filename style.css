@@ -1,8 +1,23 @@
+:root {
+    --background: white;
+    --font: #555;
+    --bullets: #bbb;
+    --lines: #aaa;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #111;
+        --font: #aaa;
+        --bullets: #555;
+        --lines: #444;
+    }
+}
+
 body { 
     font-family: Helvetica, sans-serif;
     font-size: calc(8px + 1.5vmin);
-    font-size-
-    color: #555;
+    background-color: var(--background);
+    color: var(--font);
 }
 ul p {
     position: relative;
@@ -17,7 +32,7 @@ ul p::after {
     top: 4px;
     width: 6px;
     height: 6px;
-    background:#bbb;
+    background: var(--bullets);
     border-radius:50%;
 }
 ul p::before {
@@ -25,7 +40,7 @@ ul p::before {
     content: "";
     position: absolute;
     left: -18px;
-    border-left: 1px solid #aaa;
+    border-left: 1px solid var(--lines);
     height: 145%;
     width: 1px;
 }
