@@ -11,6 +11,7 @@
         --font: #aaa;
         --bullets: #555;
         --lines: #444;
+        image-rendering: pixelated;
     }
 }
 
