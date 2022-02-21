@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Reflections on Privacy Policies and in class TED Talks"
+title: "Reflections on Privacy Policies and in-class TED Talks"
 date: 2022-02-11
 categories: Senior_Seminar
 ---

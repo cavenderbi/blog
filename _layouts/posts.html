@@ -13,19 +13,15 @@
                     <site-title>
                         <h2>CS-4100 Blog</h2>
                         <p>Brandan Cavender</p>
-                        <ul>
-                            <li><a href="/blog/">Home</a></li>
-                            <li><a href="/blog/#SeminarPosts">CS-4100 Posts</a></li>
-                            <li><a href="/blog/#GBDevPosts">Gameboy Gamedev Posts</a></li>
-                        </ul>
+                        <a href="/blog/">Home</a>
                     </site-title>
                 </wrapper>
             </header>
             <container>
                 {% if page.title %}
-                    <h1>{{page.title}}</h1>
+                    <h3>{{page.title}}</h3>
                 {% else %}
-                    <h1>Untitled Post</h1>
+                    <h3>Untitled Post</h3>
                 {% endif %}
                 {{ page.date | date_to_long_string: "ordinal", "US" }}
                 {{ content }}
