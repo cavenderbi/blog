@@ -35,16 +35,6 @@ ul p:last-child::before {
     height: 0px;
 }
 background {
-    display: flex;
-    flex-direction: column;
-}
-
-container {
-    min-width: 50%;
-    align-self: center;
-}
-
-header {
-    min-width: 50%;
-    align-self: center;
+    display: table;
+    margin: 0 auto;
 }
