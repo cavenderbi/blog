@@ -3,6 +3,7 @@
     --font: #555;
     --bullets: #bbb;
     --lines: #aaa;
+    image-rendering: pixelated;
 }
 @media (prefers-color-scheme: dark) {
     :root {
