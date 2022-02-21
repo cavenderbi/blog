@@ -1,3 +1,19 @@
 body { 
-    font-size: 1vw;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2vmax;
+    color: #555;
+}
+p::before {
+    content:"";
+    display: inline-block;
+    left:0;
+    top:12px;
+    width:6px;
+    height:6px;
+    margin-left:-4px;
+    margin-right: 8px;
+    margin-bottom: 2px;
+    background:#bbb;
+    border-radius:50%;
+    border:1px solid white;
 }
