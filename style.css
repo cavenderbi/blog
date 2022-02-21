@@ -40,13 +40,11 @@ background {
 }
 
 container {
-    max-width: 95%;
     min-width: 50%;
     align-self: center;
 }
 
 header {
-    max-width: 95%;
     min-width: 50%;
     align-self: center;
 }
